@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Kanit-Bold;
+    src: url("../fonts/Kanit-Bold.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: navajowhite;
+}
+.container {
+    font-family: Kanit-Bold;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+.memes-title{
+    font-size: 30px;
+    margin: 50px 0;
+}
+.meme{
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    border-top: 3px solid gray;
+}
+.meme-input{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.meme-name{
+    cursor: pointer;
+}
+.meme-content{
+    text-align: center;
+}
+.meme-content img{
+    margin-top: 20px;
+    border-radius: 5%;
+    width: 0;
+    transition: width .3s ease;
+}
+.meme-input:checked ~ .meme-content img{
+    width: 60%;
+
+}
+/*.meme-input:checked ~.meme-content img{*/
+/*    height: auto;*/
+/*}*/
