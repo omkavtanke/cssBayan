@@ -49,6 +49,18 @@ body{
     width: 60%;
 
 }
-/*.meme-input:checked ~.meme-content img{*/
-/*    height: auto;*/
-/*}*/
+
+@media (min-width: 300px){
+    .container {
+        width: 80%;
+    }
+    .memes-title{
+        font-size: 35px;
+    }
+    .meme{
+        font-size: 45px;
+    }
+    .meme-input:checked ~ .meme-content img{
+        width: 70%;
+    }
+}
