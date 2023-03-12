@@ -64,3 +64,8 @@ body{
         width: 70%;
     }
 }
+@media (min-width: 568px){
+    .container {
+        width: 60%;
+    }
+}
