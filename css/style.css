@@ -68,4 +68,14 @@ body{
     .container {
         width: 60%;
     }
+    .memes-title{
+        font-size: 30px;
+    }
+    .meme{
+        font-size: 25px;
+    }
+    .meme-input:checked ~ .meme-content img{
+        width: 50%;
+    }
+
 }
